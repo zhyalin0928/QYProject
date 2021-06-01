@@ -1,0 +1,138 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "cases",
+    "children" : [ {
+      "name" : "test_data_kanban",
+      "children" : [ {
+        "name" : "数据看板社区数量",
+        "uid" : "ecd0fced5d6eced5",
+        "parentUid" : "8b36d37ab484478fd77398f5bb9f7b08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622513501192,
+          "stop" : 1622513515636,
+          "duration" : 14444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "数据看板驿站数量",
+        "uid" : "e64aa0fbbf8741fa",
+        "parentUid" : "8b36d37ab484478fd77398f5bb9f7b08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622513515639,
+          "stop" : 1622513524294,
+          "duration" : 8655
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "数据看板会员数量",
+        "uid" : "156cbc6ebd276024",
+        "parentUid" : "8b36d37ab484478fd77398f5bb9f7b08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622513524298,
+          "stop" : 1622513534155,
+          "duration" : 9857
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "数据看板订单数量",
+        "uid" : "5ce352e8dc461605",
+        "parentUid" : "8b36d37ab484478fd77398f5bb9f7b08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622513535398,
+          "stop" : 1622513547116,
+          "duration" : 11718
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "数据看板工单数量",
+        "uid" : "c9c91b6b78cbede9",
+        "parentUid" : "8b36d37ab484478fd77398f5bb9f7b08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622513547123,
+          "stop" : 1622513554302,
+          "duration" : 7179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b36d37ab484478fd77398f5bb9f7b08"
+    }, {
+      "name" : "test_user_manage",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "1a8fb5ceb1091472",
+        "parentUid" : "ad9cd82d2a258639c6338cf570c9c0c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622513555477,
+          "stop" : 1622513566678,
+          "duration" : 11201
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "搜索用户",
+        "uid" : "21731b055098e2af",
+        "parentUid" : "ad9cd82d2a258639c6338cf570c9c0c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622513566681,
+          "stop" : 1622513572185,
+          "duration" : 5504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除用户",
+        "uid" : "ea0bac133a769013",
+        "parentUid" : "ad9cd82d2a258639c6338cf570c9c0c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622513572190,
+          "stop" : 1622513578857,
+          "duration" : 6667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad9cd82d2a258639c6338cf570c9c0c0"
+    }, {
+      "name" : "test_memberlast",
+      "children" : [ {
+        "name" : "新建兜底老人",
+        "uid" : "55ebb5301ebb0052",
+        "parentUid" : "9deada7b1393ceda18038b1a5abea903",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622513578860,
+          "stop" : 1622513599876,
+          "duration" : 21016
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9deada7b1393ceda18038b1a5abea903"
+    } ],
+    "uid" : "d4f25acf57632f6fe40a83cfe70f00b2"
+  } ]
+}

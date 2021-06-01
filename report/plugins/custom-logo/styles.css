@@ -1,0 +1,22 @@
+.side-nav__brand {
+  background: url('yunzhuyang.png') no-repeat left center !important;
+  margin-left: 20px;
+  height: 50px;
+  background-size: contain !important;
+}
+.side-nav__brand span{
+        display: none;
+}
+.side-nav__brand::after{
+        content: "云住养";
+        margin-left: 20px;
+        color:#0a0a0aa1;
+        height: 45px;
+        line-height: 45px;
+}
+.side-nav {
+  background-color: #97cc64;
+}
+.side-nav__text{
+  color: #000000bf
+}
