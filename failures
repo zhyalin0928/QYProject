@@ -18,3 +18,10 @@ cases/test_user_manage.py::TestUserManage::test_adduser
 cases/test_user_manage.py::TestUserManage::test_deluser
 cases/test_data_kanban.py::TestDataKanban::test_mem_amount
 cases/test_data_kanban.py::TestDataKanban::test_work_order_amount
+cases/test_data_kanban.py::TestDataKanban::test_mem_amount
+cases/test_data_kanban.py::TestDataKanban::test_work_order_amount
+cases/test_memberlast.py::TestMemLast::test_safety_del
+cases/test_data_kanban.py::TestDataKanban::test_mem_amount
+cases/test_data_kanban.py::TestDataKanban::test_work_order_amount
+cases/test_memberlast.py::TestMemLast::test_safety_del
+cases/test_memberlast.py::TestMemLast::test_memlast_del

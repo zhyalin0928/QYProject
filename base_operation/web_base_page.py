@@ -27,6 +27,10 @@ class BasePage:
     def click_button(self, loc):
         self.locator(loc).click()
 
+    # 刷新当前页面
+    def refresh(self):
+        self.driver.refresh()
+
     # 获取文本
     def get_text(self, loc):
         text = self.locator(loc).text
