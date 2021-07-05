@@ -1,0 +1,135 @@
+{
+  "uid" : "12c125876d989492",
+  "name" : "作废并删除兜底老人",
+  "fullName" : "cases.test_memberlast.TestMemLast#test_memlast_del",
+  "historyId" : "d1dc7d428aae157a925cf3f82bc9e23f",
+  "time" : {
+    "start" : 1625052077885,
+    "stop" : 1625052084620,
+    "duration" : 6735
+  },
+  "description" : "验证兜底老人删除功能是否正常",
+  "descriptionHtml" : "<p>验证兜底老人删除功能是否正常</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1625051956706,
+      "stop" : 1625051959031,
+      "duration" : 2325
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "验证兜底老人删除功能是否正常",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击删除按钮，输入作废原因并确认",
+      "time" : {
+        "start" : 1625052077885,
+        "stop" : 1625052083442,
+        "duration" : 5557
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取列表第一条数据",
+      "time" : {
+        "start" : 1625052083442,
+        "stop" : 1625052084620,
+        "duration" : 1178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1625052084626,
+      "stop" : 1625052091111,
+      "duration" : 6485
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "兜底老人模块"
+  }, {
+    "name" : "story",
+    "value" : "老人列表用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_memberlast"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMemLast"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V7MULP0"
+  }, {
+    "name" : "thread",
+    "value" : "18504-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_memberlast"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12c125876d989492.json",
+  "parameterValues" : [ ]
+}

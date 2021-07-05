@@ -1,0 +1,153 @@
+{
+  "uid" : "1197049dcbc930a",
+  "name" : "数据看板订单数量",
+  "fullName" : "cases.test_data_kanban.TestDataKanban#test_order_amount",
+  "historyId" : "612e6a8ae547f0003e28937de9962b6e",
+  "time" : {
+    "start" : 1625051987629,
+    "stop" : 1625051994919,
+    "duration" : 7290
+  },
+  "description" : "验证数据看板订单数量是否与订单管理列表中的订单数量一致",
+  "descriptionHtml" : "<p>验证数据看板订单数量是否与订单管理列表中的订单数量一致</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1625051956706,
+      "stop" : 1625051959031,
+      "duration" : 2325
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "验证数据看板订单数量是否与订单管理列表中的订单数量一致",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录并进入数据看板页面",
+      "time" : {
+        "start" : 1625051987629,
+        "stop" : 1625051987629,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取数据看板订单总量",
+      "time" : {
+        "start" : 1625051987629,
+        "stop" : 1625051990294,
+        "duration" : 2665
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "进入订单查询页面，获取订单总数",
+      "time" : {
+        "start" : 1625051990294,
+        "stop" : 1625051994919,
+        "duration" : 4625
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1625052084626,
+      "stop" : 1625052091111,
+      "duration" : 6485
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "数据看板模块"
+  }, {
+    "name" : "story",
+    "value" : "检查订单总量用例"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_data_kanban"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDataKanban"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V7MULP0"
+  }, {
+    "name" : "thread",
+    "value" : "18504-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_data_kanban"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "1197049dcbc930a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '11156' in '共 11151 条'",
+      "children" : [ {
+        "name" : "数据看板会员数量",
+        "uid" : "4b28dd6a3bec43a9",
+        "parentUid" : "360d8193bfc00c0e92368609285b129f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625051978668,
+          "stop" : 1625051986320,
+          "duration" : 7652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "360d8193bfc00c0e92368609285b129f"
+    }, {
+      "name" : "AssertionError: assert '1075' in '共 1243 条'",
+      "children" : [ {
+        "name" : "数据看板工单数量",
+        "uid" : "a9562608c90f05e1",
+        "parentUid" : "4295f49cd269bfa649aada7895390876",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625051994929,
+          "stop" : 1625052002361,
+          "duration" : 7432
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4295f49cd269bfa649aada7895390876"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

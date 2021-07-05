@@ -1,0 +1,135 @@
+{
+  "uid" : "8f6ce5b44929404",
+  "name" : "新建报平安",
+  "fullName" : "cases.test_memberlast.TestMemLast#test_safety_add",
+  "historyId" : "014c6a12cf4070d448561358cb555ec4",
+  "time" : {
+    "start" : 1625052049061,
+    "stop" : 1625052057691,
+    "duration" : 8630
+  },
+  "description" : "验证报平安新建功能是否正常",
+  "descriptionHtml" : "<p>验证报平安新建功能是否正常</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1625051956706,
+      "stop" : 1625051959031,
+      "duration" : 2325
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "验证报平安新建功能是否正常",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开启兜底老人显示，进入新建页面新建张三的报平安记录",
+      "time" : {
+        "start" : 1625052049061,
+        "stop" : 1625052056663,
+        "duration" : 7602
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取报平安列表第一条数据",
+      "time" : {
+        "start" : 1625052056663,
+        "stop" : 1625052057691,
+        "duration" : 1028
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1625052084626,
+      "stop" : 1625052091111,
+      "duration" : 6485
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "兜底老人模块"
+  }, {
+    "name" : "story",
+    "value" : "报平安用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_memberlast"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMemLast"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V7MULP0"
+  }, {
+    "name" : "thread",
+    "value" : "18504-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_memberlast"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8f6ce5b44929404.json",
+  "parameterValues" : [ ]
+}

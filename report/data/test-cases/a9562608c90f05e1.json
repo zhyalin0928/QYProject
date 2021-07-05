@@ -1,0 +1,182 @@
+{
+  "uid" : "a9562608c90f05e1",
+  "name" : "数据看板工单数量",
+  "fullName" : "cases.test_data_kanban.TestDataKanban#test_work_order_amount",
+  "historyId" : "2d2d9fabb63db4c9419b58c0a0425b15",
+  "time" : {
+    "start" : 1625051994929,
+    "stop" : 1625052002361,
+    "duration" : 7432
+  },
+  "description" : "验证数据看板工单数量是否与呼叫中心工单列表中的数量一致",
+  "descriptionHtml" : "<p>验证数据看板工单数量是否与呼叫中心工单列表中的数量一致</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '1075' in '共 1243 条'",
+  "statusTrace" : "self = <cases.test_data_kanban.TestDataKanban object at 0x0000015279A7B4E0>\ndrivers = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"234fe37f279801a14ef29542884737a5\")>\n\n    @pytest.mark.run(order=5)\n    @allure.story('检查工单总量用例')\n    @allure.title('数据看板工单数量')\n    @allure.description('验证数据看板工单数量是否与呼叫中心工单列表中的数量一致')\n    def test_work_order_amount(self, drivers):\n        with allure.step('登录并进入数据看板页面'):\n            self.kp = KanbanPage(drivers)\n        with allure.step('获取数据看板工单总量'):\n            work_order_total = self.kp.kanban_work_order_total()\n            print(work_order_total)\n        with allure.step('进入工单管理页面，获取工单总数'):\n            work_order_list_amount = self.kp.work_order_list_amount()\n            print(work_order_list_amount)\n>       assert work_order_total in work_order_list_amount\nE       AssertionError: assert '1075' in '共 1243 条'\n\ncases\\test_data_kanban.py:90: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1625051956706,
+      "stop" : 1625051959031,
+      "duration" : 2325
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "验证数据看板工单数量是否与呼叫中心工单列表中的数量一致",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '1075' in '共 1243 条'",
+    "statusTrace" : "self = <cases.test_data_kanban.TestDataKanban object at 0x0000015279A7B4E0>\ndrivers = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"234fe37f279801a14ef29542884737a5\")>\n\n    @pytest.mark.run(order=5)\n    @allure.story('检查工单总量用例')\n    @allure.title('数据看板工单数量')\n    @allure.description('验证数据看板工单数量是否与呼叫中心工单列表中的数量一致')\n    def test_work_order_amount(self, drivers):\n        with allure.step('登录并进入数据看板页面'):\n            self.kp = KanbanPage(drivers)\n        with allure.step('获取数据看板工单总量'):\n            work_order_total = self.kp.kanban_work_order_total()\n            print(work_order_total)\n        with allure.step('进入工单管理页面，获取工单总数'):\n            work_order_list_amount = self.kp.work_order_list_amount()\n            print(work_order_list_amount)\n>       assert work_order_total in work_order_list_amount\nE       AssertionError: assert '1075' in '共 1243 条'\n\ncases\\test_data_kanban.py:90: AssertionError",
+    "steps" : [ {
+      "name" : "登录并进入数据看板页面",
+      "time" : {
+        "start" : 1625051994929,
+        "stop" : 1625051994929,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取数据看板工单总量",
+      "time" : {
+        "start" : 1625051994929,
+        "stop" : 1625051997124,
+        "duration" : 2195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "进入工单管理页面，获取工单总数",
+      "time" : {
+        "start" : 1625051997124,
+        "stop" : 1625052002361,
+        "duration" : 5237
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1625052002368,
+        "stop" : 1625052003554,
+        "duration" : 1186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1525a364b5098769",
+        "name" : "失败截图",
+        "source" : "1525a364b5098769.png",
+        "type" : "image/png",
+        "size" : 139751
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1625052084626,
+      "stop" : 1625052091111,
+      "duration" : 6485
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "数据看板模块"
+  }, {
+    "name" : "story",
+    "value" : "检查工单总量用例"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=5)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_data_kanban"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDataKanban"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V7MULP0"
+  }, {
+    "name" : "thread",
+    "value" : "18504-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_data_kanban"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=5)" ]
+  },
+  "source" : "a9562608c90f05e1.json",
+  "parameterValues" : [ ]
+}

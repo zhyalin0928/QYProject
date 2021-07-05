@@ -1,0 +1,138 @@
+{
+  "uid" : "2ebb62754941492b",
+  "name" : "搜索用户",
+  "fullName" : "cases.test_user_manage.TestUserManage#test_searchuser",
+  "historyId" : "7b4d2b5190d6df20417daaceb57ae44c",
+  "time" : {
+    "start" : 1625052015866,
+    "stop" : 1625052021437,
+    "duration" : 5571
+  },
+  "description" : "验证搜索用户功能是否正常",
+  "descriptionHtml" : "<p>验证搜索用户功能是否正常</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1625051956706,
+      "stop" : 1625051959031,
+      "duration" : 2325
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "验证搜索用户功能是否正常",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "搜索框中输入手机号18199999999，并点击搜索按钮",
+      "time" : {
+        "start" : 1625052015866,
+        "stop" : 1625052021376,
+        "duration" : 5510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取搜索结果手机号信息",
+      "time" : {
+        "start" : 1625052021376,
+        "stop" : 1625052021436,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "drivers::0",
+    "time" : {
+      "start" : 1625052084626,
+      "stop" : 1625052091111,
+      "duration" : 6485
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用户列表用例"
+  }, {
+    "name" : "feature",
+    "value" : "用户管理模块"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=7)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_manage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserManage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V7MULP0"
+  }, {
+    "name" : "thread",
+    "value" : "18504-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_user_manage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=7)" ]
+  },
+  "source" : "2ebb62754941492b.json",
+  "parameterValues" : [ ]
+}
