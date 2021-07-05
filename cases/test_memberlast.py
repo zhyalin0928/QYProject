@@ -66,14 +66,23 @@ class TestMemLast:
             print(memlast_phone)
         assert '18199999999' in memlast_phone
 
+    @allure.story('主动关怀用例')
+    @allure.title('删除主动关怀')
+    @allure.description('验证主动关怀删除功能是否正常')
+    def test_care_del(self, drivers):
+        with allure.step('点击删除按钮并确认'):
+            self.mlp = MemberLastPage(drivers)
+            sleep(1)
+            self.mlp.care_del()
+
     @allure.story('老人列表用例')
     @allure.title('作废并删除兜底老人')
     @allure.description('验证兜底老人删除功能是否正常')
-    def test_memlast_del(self, drivers, del_reason='已作废'):
+    def test_memlast_del(self, drivers):
         with allure.step('点击删除按钮，输入作废原因并确认'):
             self.mlp = MemberLastPage(drivers)
             sleep(1)
-            self.mlp.memlast_del(del_reason)
+            self.mlp.memlast_del(del_reason='已作废')
         with allure.step('获取列表第一条数据'):
             memlast_phone = self.mlp.list_first_data()
             sleep(1)

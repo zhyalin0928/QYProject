@@ -4,9 +4,7 @@
 @Function  ：memberlast_page
 """
 from time import sleep
-
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from base_operation.web_base_page import BasePage
 
 
@@ -25,14 +23,11 @@ class MemberLastPage(BasePage):
     # 开启/关闭开启按钮
     switch_btn = (By.XPATH, '//*[@id="datatable-editable"]/tbody/tr[1]/td[7]/span')
     # 作废原因输入框
-    del_reason = (By.XPATH, '//*[@id="layui-layer2"]/div[2]/textarea')
+    del_reason = (By.XPATH, '//*[@class="layui-layer layui-layer-page layui-layer-prompt"]/div[2]/textarea')
     # 作废确定按钮
-    del_save_btn = (By.XPATH, '//*[@id="layui-layer5"]/div[3]/a[1]')
-    # 作废二次确认按钮
-    del_confirm_btn = (By.XPATH, '//*[@id="layui-layer6"]/div[3]/a[1]')
+    del_confirm_btn = (By.XPATH, '//*[@class="layui-layer layui-layer-page layui-layer-prompt"]/div[3]/a')
     # 删除按钮
     del_btn = (By.XPATH, '//*[@id="datatable-editable"]/tbody/tr[1]/td[8]/a[2]')
-
 
     """-----------新建兜底老人页面元素----------"""
     # 长者搜索输入框
@@ -65,12 +60,14 @@ class MemberLastPage(BasePage):
     care_search_btn = (By.XPATH, '//*[@id="commentForm"]/div[5]/div/span/span[1]/span/ul/li/input')
     # 第一个关怀人员属性
     care_first_data = (By.XPATH, '//*[@id="select2-select_userinfo-results"]/li[1]')
+    # 主动关怀删除按钮
+    care_del_btn = (By.XPATH, '//*[@id="datatable-editable"]/tbody/tr[1]/td[10]/a[2]')
 
     """----------页面公共元素---------"""
     # 长者姓名选择框
     mem_selector_btn = (By.XPATH, '//*[@id="commentForm"]/div[1]/div[2]/div/div[1]/div/span/span[1]/span')
     # 提交确认按钮
-    confirm_btn = (By.XPATH, '//*[@id="layui-layer1"]/div[3]/a[1]')
+    confirm_btn = (By.XPATH, '//*[@class="layui-layer layui-layer-dialog"]/div[3]/a[1]')
     # 搜索输入框
     username_input = (By.XPATH, '/html/body/span/span/span[1]/input')
     # 保存按钮
@@ -98,7 +95,7 @@ class MemberLastPage(BasePage):
         # 点击确认按钮
         self.click_button(self.confirm_btn)
 
-    # 搜索兜底老人
+    # 老人搜索兜底
     def search_memlast(self, memlast_name):
         # 进入老人列表页面
         self.open_browser(self.memberlast_url)
@@ -135,7 +132,7 @@ class MemberLastPage(BasePage):
         # 点击二次确认按钮
         self.click_button(self.confirm_btn)
 
-    # 删除保平安记录
+    # 删除报平安记录
     def safety_del(self):
         # 点击报平安管理菜单
         self.click_button(self.safety_btn)
@@ -171,18 +168,30 @@ class MemberLastPage(BasePage):
         # 点击二次确认按钮
         self.click_button(self.confirm_btn)
 
+    # 删除主动关怀
+    def care_del(self):
+        # 点击报平安管理菜单
+        self.click_button(self.care_btn)
+        sleep(1)
+        # 点击删除按钮
+        self.click_button(self.care_del_btn)
+        sleep(1)
+        # 点击二次确认按钮
+        self.click_button(self.confirm_btn)
+
     # 作废兜底老人并删除
     def memlast_del(self, del_reason):
         # 进入老人列表页面
         self.open_browser(self.memberlast_url)
+        sleep(1)
         # 点击是否启用按钮
         self.click_button(self.switch_btn)
         # 输入作废原因
         self.input_keys(self.del_reason, del_reason)
         # 点击确认按钮
-        self.click_button(self.del_save_btn)
-        # 点击作废二次确认按钮
         self.click_button(self.del_confirm_btn)
+        # 点击作废二次确认按钮
+        self.click_button(self.confirm_btn)
         sleep(1)
         # 点击删除按钮
         self.click_button(self.del_btn)
